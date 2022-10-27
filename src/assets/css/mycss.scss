@@ -1,0 +1,36 @@
+@font-face {
+  font-style: normal;
+  font-family: "HarmonyOS";
+  src: url("~@/assets/font/HarmonyOS_Sans/HarmonyOS_Sans_Black.ttf")  format('truetype');
+}
+* {
+  font-family: "HarmonyOS";
+}
+
+.STANDARD-width {
+  width: 70%;
+  margin: 0 auto;
+}
+.STANDARD-title {
+  font-size: 60px;
+  color: rgba(255, 219, 219, 0.654);
+}
+.STANDARD-form-width {
+  width: 30%;
+  margin: 0 auto;
+}
+
+
+$color-background: rgb(249, 249, 251);
+$color-orange: #ffc603;
+$color-shadow: rgba(0, 0, 255, 0.2);
+
+.CARD-style {
+
+  transition: all 0.5s;
+  background-color: white;
+  box-shadow: 5px 5px 5px $color-shadow;
+  &:hover {
+    transform: scale(1.1, 1.1);
+  }
+}
